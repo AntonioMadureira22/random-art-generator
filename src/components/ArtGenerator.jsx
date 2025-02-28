@@ -29,7 +29,7 @@ const ArtGenerator = () => {
   };
 
   const setup = (p5, canvasParentRef) => {
-    const canvas = p5.createCanvas(400, 400).parent(canvasParentRef);
+    p5.createCanvas(400, 400).parent(canvasParentRef);
     canvasRef.current = p5;
     generateArt(p5);
   };
