@@ -1,4 +1,5 @@
 import ArtGenerator from "./components/ArtGenerator";
+import '../src/App.css'
 
 function App() {
   return (
