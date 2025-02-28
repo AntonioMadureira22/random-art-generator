@@ -167,6 +167,11 @@ const ArtGenerator = () => {
           Download Art
         </button>
       </div>
+
+      {/* Footer */}
+      <footer className="mt-12 py-4 w-full text-center bg-gray-800 text-white">
+        <p className="text-sm">2025 @tonemadureira on X (Antonio Madureira) created this with love</p>
+      </footer>
     </div>
   );
 };
