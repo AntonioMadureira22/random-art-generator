@@ -169,9 +169,11 @@ const ArtGenerator = () => {
       </div>
 
       {/* Footer */}
-      <footer className="mt-12 py-4 w-full text-center bg-gray-800 text-white">
-        <p className="text-sm">2025 @tonemadureira on X (Antonio Madureira) created this with love</p>
-      </footer>
+<footer className="mt-12 py-4 w-full text-center bg-gray-800 text-white">
+  <p className="text-sm">
+    2025 <a href="https://twitter.com/tonemadureira" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-700">@tonemadureira</a> on X (Antonio Madureira) created this with love
+  </p>
+</footer>
     </div>
   );
 };
